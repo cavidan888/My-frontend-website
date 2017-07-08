@@ -1,0 +1,113 @@
+body{
+
+	margin: 0px;
+	
+}
+.mainDiv{
+
+	width: 100%;
+	height: 700px;
+	
+}
+
+
+
+.mainDiv img{
+
+	width: 100%;
+	margin-bottom: 0px;
+	
+}
+
+.text{
+
+
+overflow: hidden;
+margin-top: -260px
+
+}
+
+.text h1{
+    position: relative; 
+	text-align: center;
+	font-family:'Varela Round';
+	font-size: 20px;
+	letter-spacing: 10px;
+}
+
+.text h6{
+    position: relative;
+	text-align: center;
+}
+
+.text input{
+
+width: 160px;
+height: 40px;
+margin-left: 250px;
+background-color:rgba(61, 201, 179, 1);
+font-size: 10px;
+
+color:white;
+font-family: sans-serif;
+font-weight: bold;
+
+}
+.newSection{
+
+	width: 100%;
+	height: 200px;
+	background-color:#f3f5f8;
+	margin-top: 98px;
+	
+}
+.newSection h1{
+    text-align: center;
+	padding-top: 50px;
+	font-size: 8px;
+	font-family: sans-serif;
+	color:black;
+	
+
+
+}
+.newSectionTitle{
+
+	width: 500px;
+	height: 200px;
+	text-align: center;
+	margin: auto;
+	
+
+
+}
+p{
+
+	font-size: 10px;
+
+}
+a{
+
+	text-decoration: none;
+	color: black;
+}
+.bigSection{
+
+	width: 100%;
+	height: 1000px;
+	background-color: yellow;
+
+}
+.bigSection h1{
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #353535;
+    letter-spacing: 1px;
+    background: url(../images/download.png) no-repeat center bottom;
+    padding-bottom: 30px;
+    font-weight: bold;
+
+
+}
+
+
