@@ -42,9 +42,9 @@ margin-top: -260px
 
 .text input{
 
-width: 160px;
-height: 40px;
-margin-left: 250px;
+width: 130px;
+height: 35px;
+margin: 0 auto;
 background-color:rgba(61, 201, 179, 1);
 font-size: 10px;
 
@@ -53,12 +53,16 @@ font-family: sans-serif;
 font-weight: bold;
 
 }
+
+
+
 .newSection{
 
 	width: 100%;
 	height: 200px;
 	background-color:#f3f5f8;
 	margin-top: 98px;
+	margin-bottom: 0px;
 	
 }
 .newSection h1{
@@ -91,23 +95,107 @@ a{
 	text-decoration: none;
 	color: black;
 }
-.bigSection{
+.Section{
 
 	width: 100%;
-	height: 1000px;
-	background-color: yellow;
+	height: 100px;
+	background-color:white;
+	text-align: center;
+
 
 }
-.bigSection h1{
+.Section h1{
     font-size: 15px;
     text-transform: uppercase;
     color: #353535;
     letter-spacing: 1px;
-    background: url(../images/download.png) no-repeat center bottom;
     padding-bottom: 30px;
     font-weight: bold;
 
 
+
+}
+.sectionTitle{
+
+	width: 400px;
+	height: 30px;
+	margin:auto;
 }
 
+.sectionTitle h1{
+
+	font-size: 8px;
+	font-family: sans-serif;
+	text-align: center;
+	color: #353535;
+    padding-bottom: 30px;
+    letter-spacing: 1px;
+    padding-top: 10px;
+
+
+}
+i{
+
+	color: black;
+}
+.containDiv{
+
+	width: 100%;
+	height: 250px;
+	background-color:#f3f5f8;
+	margin: auto;
+	padding-left: 18px;
+	padding-top: 20px;
+	position: relative;
+
+
+
+	
+	
+	
+}
+.newItem{
+
+    padding-top:30px;
+	width: 235px;
+	margin: 5px;
+	height: 170px;
+	background-color:#f3f5f8;
+	float: left;
+
+
+
+}
+.icon{
+
+	width: 90px;
+	height: 90px;
+	background-color: white;
+	margin: 0px auto;
+	border-radius:50%;
+	background: #3dc9b3;
+	line-height: 60px;
+}
+.icon i{
+
+	color: white;
+	font-size: 30px;
+	padding-top: 30px;
+
+}
+p{
+	color: black;
+	font-family: 'Varela Round';
+	font-size: 6px;
+}
+
+
+.verticalLine{
+
+	width:20px;
+	height: 2px;
+	background-color: #3dc9b3;;
+	margin:auto;
+
+}
 
