@@ -1,201 +1,369 @@
-body{
-
-	margin: 0px;
-	
-}
-.mainDiv{
-
-	width: 100%;
-	height: 700px;
-	
+body {
+    margin: 0px;
 }
 
-
-
-.mainDiv img{
-
-	width: 100%;
-	margin-bottom: 0px;
-	
+.mainDiv {
+    width: 100%;
+    height: 700px;
 }
 
-.text{
-
-
-overflow: hidden;
-margin-top: -260px
-
+.mainDiv img {
+    width: 100%;
+    margin-bottom: 0px;
 }
 
-.text h1{
-    position: relative; 
-	text-align: center;
-	font-family:'Varela Round';
-	font-size: 20px;
-	letter-spacing: 10px;
+.text {
+    overflow: hidden;
+    margin-top: -260px
 }
 
-.text h6{
+.text h1 {
     position: relative;
-	text-align: center;
-}
-
-.text input{
-
-width: 130px;
-height: 35px;
-margin: 0 auto;
-background-color:rgba(61, 201, 179, 1);
-font-size: 10px;
-
-color:white;
-font-family: sans-serif;
-font-weight: bold;
-
-}
-
-
-
-.newSection{
-
-	width: 100%;
-	height: 200px;
-	background-color:#f3f5f8;
-	margin-top: 98px;
-	margin-bottom: 0px;
-	
-}
-.newSection h1{
     text-align: center;
-	padding-top: 50px;
-	font-size: 8px;
-	font-family: sans-serif;
-	color:black;
-	
-
-
+    font-family: 'Varela Round';
+    font-size: 20px;
+    letter-spacing: 10px;
 }
-.newSectionTitle{
 
-	width: 500px;
-	height: 200px;
-	text-align: center;
-	margin: auto;
-	
-
-
+.text h6 {
+    font-size: 8px;
+    position: relative;
+    text-align: center;
+    font-family: "Varela Round";
+    color: #c0c2c6;
 }
-p{
 
-	font-size: 10px;
-
+.text input {
+    width: 130px;
+    height: 35px;
+    margin-left: 320px;
+    background-color: #3dc9b3;
+    font-size: 10px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    transition: all 0.25s ease-in-out;
 }
-a{
 
-	text-decoration: none;
-	color: black;
+input:hover {
+    border-bottom: 2px solid black;
 }
-.Section{
 
-	width: 100%;
-	height: 100px;
-	background-color:white;
-	text-align: center;
-
-
+.newSection {
+    width: 100%;
+    height: 200px;
+    background-color: #f3f5f8;
+    margin-top: 98px;
+    margin-bottom: 0px;
 }
-.Section h1{
+
+.newSection h1 {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 8px;
+    font-family: sans-serif;
+    color: black;
+}
+
+.newSectionTitle {
+    width: 500px;
+    height: 200px;
+    text-align: center;
+    margin: auto;
+}
+
+p {
+    font-size: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.Section {
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    text-align: center;
+}
+
+.Section h1 {
     font-size: 15px;
     text-transform: uppercase;
     color: #353535;
     letter-spacing: 1px;
     padding-bottom: 30px;
     font-weight: bold;
-
-
-
-}
-.sectionTitle{
-
-	width: 400px;
-	height: 30px;
-	margin:auto;
 }
 
-.sectionTitle h1{
+.sectionTitle {
+    width: 400px;
+    height: 30px;
+    margin: auto;
+}
 
-	font-size: 8px;
-	font-family: sans-serif;
-	text-align: center;
-	color: #353535;
+.sectionTitle h1 {
+    font-size: 8px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #353535;
     padding-bottom: 30px;
     letter-spacing: 1px;
     padding-top: 10px;
-
-
-}
-i{
-
-	color: black;
-}
-.containDiv{
-
-	width: 100%;
-	height: 250px;
-	background-color:#f3f5f8;
-	margin: auto;
-	padding-left: 18px;
-	padding-top: 20px;
-	position: relative;
-
-
-
-	
-	
-	
-}
-.newItem{
-
-    padding-top:30px;
-	width: 235px;
-	margin: 5px;
-	height: 170px;
-	background-color:#f3f5f8;
-	float: left;
-
-
-
-}
-.icon{
-
-	width: 90px;
-	height: 90px;
-	background-color: white;
-	margin: 0px auto;
-	border-radius:50%;
-	background: #3dc9b3;
-	line-height: 60px;
-}
-.icon i{
-
-	color: white;
-	font-size: 30px;
-	padding-top: 30px;
-
-}
-p{
-	color: black;
-	font-family: 'Varela Round';
-	font-size: 6px;
 }
 
-
-.verticalLine{
-
-	width:20px;
-	height: 2px;
-	background-color: #3dc9b3;;
-	margin:auto;
-
+i {
+    color: black;
 }
 
+.containDiv {
+    width: 100%;
+    height: 250px;
+    background-color: white;
+    margin: auto;
+    padding-left: 18px;
+    padding-top: 20px;
+    position: relative;
+}
+
+.newItem {
+    padding-top: 30px;
+    width: 235px;
+    margin: 5px;
+    height: 170px;
+    background-color: white;
+    float: left;
+}
+
+.icon {
+    width: 90px;
+    height: 90px;
+    background-color: white;
+    margin: 0px auto;
+    border-radius: 50%;
+    background: #3dc9b3;
+    line-height: 60px;
+}
+
+.icon i {
+    color: white;
+    font-size: 30px;
+    padding-top: 30px;
+}
+
+p {
+    color: black;
+    font-family: 'Varela Round';
+    font-size: 6px;
+}
+
+.verticalLine {
+    width: 20px;
+    height: 2px;
+    background-color: #3dc9b3;
+    ;
+    margin: auto;
+}
+
+.iphoneSection {
+    width: 100%;
+    height: 250px;
+}
+
+.newIphoneSection {
+    width: 40%;
+    height: 250px;
+    float: left;
+    background-color: #f3f5f8;
+    animation-name: fadeInDown;
+}
+
+.newIphoneSection2 {
+    width: 60%;
+    height: 250px;
+    background-color: yellow;
+    float: left;
+}
+
+.swagTextCenter {
+    width: 100%;
+    height: 130px;
+    background-color: rgba(0, 0, 0);
+    opacity: 0.99;
+    background-image: url(../images/plants.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 24px;
+    color: white;
+}
+
+.forTextSection {
+    width: 50%;
+    height: 80px;
+    background-color: ;
+    margin: auto;
+    word-spacing: 5px;
+    font-family: "Varela Round"
+}
+
+.forTextSection i {
+    color: #3dc9b3
+}
+
+.portfolioSection {
+    width: 100%;
+    height: 250px;
+    background-color: ;
+    padding-top: 30px;
+}
+
+.panelDiv {
+    width: 100%;
+    height: 350px;
+    background-color: ;
+}
+
+.littlePanels {
+    width: 220px;
+    margin: 5px;
+    margin-left: 25px;
+    height: 260px;
+    background-color: ;
+    float: left;
+    background-size: cover;
+    color: black;
+    font-family: "Varela Round";
+    font-size: 10px;
+}
+
+.verticalLine2 {
+    width: 30px;
+    height: 3px;
+    background-color: #3dc9b3;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.blackSection {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+}
+
+.blackSection input {
+    width: 130px;
+    height: 35px;
+    font-size: 8px;
+    margin: auto;
+    margin-top: 22px;
+    color: white;
+    border: 0.5px solid white;
+    background-color: black;
+    font-family: "Varela Round";
+    transition: all 0.25s ease-in-out;
+}
+
+.blackSection input:hover {
+    background-color: #3dc9b3;
+}
+
+.personSection {
+    width: 100%;
+    height: 450px;
+    background-color: ;
+    padding-top: 30px;
+}
+
+.personSection h4 {
+    color: black;
+    font-family: "Varela Round";
+}
+
+.personImage {
+    width: 240px;
+    height: 285px;
+    background-color: ;
+    margin: 5px;
+    float: left;
+    margin-left: 10px;
+}
+
+.picture {}
+
+.pictureFrame {
+    width: 50%;
+    height: 150px;
+    background-color: white;
+    margin: auto;
+}
+
+.pictureFrame h4 {
+    font-size: 8px;
+}
+
+.verticalLine3 {
+    width: 30px;
+    height: 3px;
+    background-color: #3dc9b3;
+    margin: auto;
+}
+
+.pictureFrame p {
+    font-size: 8px;
+}
+
+.pictureFrame i {
+    border-radius: 15px;
+    border: 6px solid black;
+    color: white;
+    background-color: black;
+    font-size: 9px;
+}
+
+.computerSection {
+    width: 100%;
+    height: 170px;
+    background-color: rgba(0, 0, 0);
+    opacity: 0.99;
+    background-image: url(../images/keyboard.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 50px;
+    color: white;
+}
+
+.computerSection>i {
+    color: white;
+}
+
+.computerSection>h6 {
+    font-family: "Varela Round";
+    word-spacing: 3px;
+}
+
+.computerSection>input {
+    height: 25px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px #fff;
+    border: 1px solid white;
+}
+
+button {
+    width: 50px;
+    height: 28px;
+    text-transform: uppercase;
+    background-color: rgba(61, 201, 179, 0.5);
+    border: solid 1px rgba(61, 201, 179, 0.5);
+    font-size: 8px;
+    font-family: "Varela Round";
+    color: white;
+}
+
+.footerSection {
+    width: 100%;
+    height: 285px;
+    background-color: red;
+}
