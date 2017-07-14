@@ -1,5 +1,6 @@
 body {
     margin: 0px;
+
 }
 
 .mainDiv {
@@ -34,7 +35,7 @@ body {
 }
 
 .text input {
-    width: 130px;
+    width:130px;
     height: 35px;
     margin-left: 320px;
     background-color: #3dc9b3;
@@ -177,6 +178,7 @@ p {
     float: left;
     background-color: #f3f5f8;
     animation-name: fadeInDown;
+    
 }
 
 .newIphoneSection2 {
